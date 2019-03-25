@@ -18,6 +18,6 @@ function insertionSort(array){
   while(array.length != 0) {
     newMin = minAndRemove(array)
     sorted.push(newMin)
-  } 
+  }
   return sorted;
 }
