@@ -5,9 +5,11 @@ function findMinAndRemove(array){
    let currentElement = array[counter]
    if (array[counter] < min) {
      min = array[counter]
-     min index = counter
+     minIndex = counter
    }
  }
+ array.splice(minIndex, 1)
+ return min;
 }
 
 function insertionSort(array){
